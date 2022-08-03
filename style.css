@@ -22,8 +22,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  font-size: 28px;
 
   background-color: var(--primary-color);
 }
@@ -43,13 +41,6 @@ nav {
 
 .photo {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   padding: 5px;
-}
-
-.navegation ul li {
-  display: inline;
-  margin-left: 50px;
-  font-size: 30px;
-  position: relative;
 }
