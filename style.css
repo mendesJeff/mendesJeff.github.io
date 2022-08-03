@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+:root {
+  --primary-color: hsl(199, 92%, 58%);
+  --second-color: hsl(317, 92%, 99%);
+  --black-border: hsl(200, 80%, 40%);
+}
+
+body {
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  height: 180px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  background-color: var(--primary-color);
+}
+
+div.image {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
