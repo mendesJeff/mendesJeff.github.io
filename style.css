@@ -19,18 +19,37 @@ h1 {
 }
 
 nav {
-  height: 180px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  font-size: 28px;
 
   background-color: var(--primary-color);
 }
 
-div.image {
-  text-align: center;
+.image {
   display: flex;
   justify-content: center;
+}
+
+.whatsapp, .facebook{
+  border-radius: 15px;
+}
+
+.facebook, .whatsapp, .mail, .instagram, .linkedin {
+  padding-inline: 5px
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.navegation ul li {
+  display: inline;
+  margin-left: 50px;
+  font-size: 30px;
+  position: relative;
 }
